@@ -4,11 +4,7 @@ import torch
 from torchvision import transforms
 import torch.nn.functional as F
 from fastai.learner import load_learner
-# import pathlib
 from fastai.vision.all import *
-
-# temp = pathlib.PosixPath
-# pathlib.PosixPath = pathlib.WindowsPath
 
 st.markdown("""# Mongolian Food Classifier
 
