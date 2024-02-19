@@ -7,8 +7,9 @@ from fastai.learner import load_learner
 import pathlib
 from fastai.vision.all import *
 
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+# temp = pathlib.PosixPath
+# pathlib.PosixPath = pathlib.WindowsPath
+
 st.markdown("""# Mongolian Food Classifier
 
 This app can be used to identify four common mongolian foods: buuz/dumplings, khuushuur, tsuivan and niislel/olivier salad.""")
